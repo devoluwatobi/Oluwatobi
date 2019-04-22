@@ -1,0 +1,253 @@
+html{
+    scroll-behavior: smooth;
+    max-width: 100vw;
+}
+body{
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(../background/armchair-business-computer-1532621.jpg) rgba(0, 0, 0, .7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    color: white;
+    background-blend-mode:overlay;
+}
+.main{
+    width: 100%;
+    background-blend-mode:overlay;
+    color: white;
+    height: 100vh;
+}
+button.menu-toggler{
+    float: right;
+    margin-right: 15px;
+    background: transparent;
+    border: none;
+    color: white;
+    display: none;
+}
+button.menu-toggler:focus{
+    outline: none;
+}
+.menu{
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    margin-bottom: 100px;
+}
+.menu-brand{
+    padding: 7px;
+    margin-right: 10px;
+    color: white;
+    text-align: center; 
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+.menu-list{
+    display: inline;
+    float: right;
+    padding-right: 20px;
+    margin: 0;
+    text-align: center;
+}
+.menu-item{
+    display: inline-block;
+    float: left;
+    padding: 7px;
+}
+.menu-item:hover{
+    
+}
+.menu-brand:hover{
+    color: white;
+    text-decoration: none;
+}
+.menu-link{
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 20px;
+}
+.menu-link:active{
+    border-bottom: 5px groove white;
+    color: white;
+}
+.menu-link:hover{
+    text-decoration: none;
+    border-bottom: 5px groove white;
+    color: white;
+}
+.dropdown-toggle:hover{
+    text-decoration: none;
+    border: none;
+}
+.drop-menu{
+    background: transparent;
+    color: white;
+    width: auto;
+    border: none;
+    display:none;
+    padding: 0;
+}
+.drop-item{
+    color: white;
+    font-size: 1rem;
+    display: list-item;
+    list-style: none;
+    padding: 4px;
+    text-align: center;
+    float: center;
+}
+.drop-item:hover{
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+#pp{
+    width: 150px;
+    border-radius: 50%;
+}
+.call2action{
+    padding-top: 100px;
+    max-width: 100vw;
+    max-height: 100vh;
+    text-align: center;
+    margin: auto;
+}
+.size-1{
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.size-2{
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+button.goto{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    background: transparent;
+    outline: none;
+    border: 0;
+}
+button.goto:hover{
+    background: white;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+}
+.text-small{
+    font-size: 15px;
+}
+.full{
+    width: 100vw;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    margin: auto;
+    padding-top: 35vh;
+    
+}
+
+footer{
+    margin-top: 10vw;
+    text-align: center
+}
+i.fab{
+    padding: 10px;
+    cursor: pointer;
+}
+i.fab:hover{
+    transform: scale(1.5);
+}
+.last{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+div.layer{
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-size: 3em;
+    color: black;
+    display: none;
+}
+.modal-inner{
+    width: 400px;
+}
+div.modalcontent{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:15px;
+}
+.my-modal{
+    width: 400px;
+}
+form.contact{
+    max-width: 400px;
+    display: flex;
+    flex-flow: column;
+    background-color: ghostwhite;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+.layer .fa{
+    color: aliceblue;
+    float: right;
+    padding: 10px;
+}
+span.detail input, textarea{
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: gainsboro;
+    outline: none;
+    border: none;
+}
+span.detail button{
+    width: 100%;
+    padding: 10px;
+    color: ghostwhite;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: darkviolet;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+span.detailin{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(100, 0, 100, .1);
+    text-align: center;
+    border-radius:4px;   
+}
+span.detailin a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
